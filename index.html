@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>my name is noman</title>
+      <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+      <link rel="stylesheet" href="/assets/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     
+   </head>
+   <body>
+      <section class="container">
+         <div class="bg-dark rounded">
+            <h1 class="text-center text-white p-3 mb-0 bg">BMI Calculator</h1>
+         </div>
+         <div class=" bg-gray-100 h-64 px-4 mx-auto">
+            <div class="container pt-4">
+               <div class="row">
+                  <div class="col-lg-5 col-md-8 col-sm-12 mx-auto">
+                     <label for="">Enter Height</label>
+                     <input type="number" id="height" class="form-control">
+                     <label for="" class="pt-3">Enter Weight</label>
+                     <input type="number" id="weight" class="form-control">
+                     <label for="" class="pt-3" >BMI Value</label>
+                     <input type="number" id="bmivalue" class="form-control mb-3">
+                     <button class="btn btn-primary btn-block " type="submit" onclick="getbmivalue()">Submit</button>
+                     <br>
+                     <div id="alert" class="alert text-center ">
+                      <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+                   </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+      
+      </section>
+   </body>
+  
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <script src="./js/main.js"></script>
+</html>
